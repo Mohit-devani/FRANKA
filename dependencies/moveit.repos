@@ -1,0 +1,35 @@
+repositories:
+  moveit2:
+    type: git
+    url: https://github.com/moveit/moveit2
+    version: 093360fef2ea8269c607821b551ffb2d4bc5c9a8
+
+  moveit2_tutorials:
+    type: git
+    url: https://github.com/moveit/moveit2_tutorials
+    version: e1b3727d4bbd22a57f17120ec423a4171f4bdc66
+
+  moveit_msgs:
+    type: git
+    url: https://github.com/moveit/moveit_msgs
+    version: 6066314bc50472c23a0712f317396bd120a07227
+
+  moveit_resources:
+    type: git
+    url: https://github.com/moveit/moveit_resources
+    version: e1657c128ea61621777a041e3783c9c7c93db4ca
+
+  moveit_task_constructor:
+    type: git
+    url: https://github.com/moveit/moveit_task_constructor.git
+    version: f527048b3db1574f68f5c646e9ed7099085af5c8
+
+  moveit_visual_tools:
+    type: git
+    url: https://github.com/moveit/moveit_visual_tools
+    version: e5681a71c63c8a5610da7ca7964ce2fab751ea6e
+
+  rviz_visual_tools:
+    type: git
+    url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+    version: 6f41d6a55bab492d3faf805734160283e7aa7c40
