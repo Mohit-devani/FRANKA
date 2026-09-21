@@ -12,21 +12,15 @@ if [ ! -f /opt/ros/jazzy/setup.bash ]; then
 fi
 
 source /opt/ros/jazzy/setup.bash
-
 cd "$FRANKA_WS"
 
 echo
 echo "===== INSTALL ROS DEPENDENCIES ====="
-rosdep install \
-    --from-paths src/FRANKA \
-    --ignore-src \
-    -r \
-    -y
+rosdep install --from-paths src/FRANKA --ignore-src -r -y
 
 echo
 echo "===== BUILD FRANKA PACKAGES ====="
-colcon build \
-    --packages-select panda_moveit_config franka_motion_app
+colcon build --packages-select panda_moveit_config franka_motion_app
 
 echo
 echo "===== SETUP COMPLETE ====="
